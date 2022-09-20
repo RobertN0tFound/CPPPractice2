@@ -7,7 +7,8 @@ int main()
 {
     double x;
     double y;
-    scanf_s()
+    printf("Input x, y > ");
+    scanf_s("%lf%lf", &x, &y);
     double z = 0.16*pow(10, 2);
     double t1 = 1 + pow(sin(x + y), 2);
     double t2 = 2*y / 1 + pow(x, 2) * pow(y, 2);
